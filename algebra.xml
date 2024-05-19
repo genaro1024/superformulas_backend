@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formulas>
+    <section id="special-products">
+        <lang code="es">productos notables</lang>
+        <lang code="en">special products</lang>
+    </section>
+    <formula>
+        <title id="difference-of-squares">
+            <lang code="es">diferencia de cuadrados</lang>
+            <lang code="en">difference of squares</lang>
+        </title>
+        <expression>a^2 - b^2 = (a - b)(a + b)</expression>
+    </formula>
+    <formula>
+        <title id="square-of-a-sum">
+            <lang code="es">cuadrado de una suma</lang>
+            <lang code="en">square of a sum</lang>
+        </title>
+        <expression>(a + b)^2 = a^2 + 2ab + b^2</expression>
+    </formula>
+    <formula>
+        <title id="square-of-a-difference">
+            <lang code="es">cuadrado de una diferencia</lang>
+            <lang code="en">square of a difference</lang>
+        </title>
+        <expression>(a - b)^2 = a^2 - 2ab + b^2</expression>
+    </formula>
+    <formula>
+        <title id="sum-of-cubes">
+            <lang code="es">suma de cubos</lang>
+            <lang code="en">sum of cubes</lang>
+        </title>
+        <expression>a^3 + b^3 = (a + b)(a^2 - ab + b^2)</expression>
+    </formula>
+    <formula>
+        <title id="difference-of-cubes">
+            <lang code="es">diferencia de cubos</lang>
+            <lang code="en">difference of cubes</lang>
+        </title>
+        <expression>a^3 - b^3 = (a - b)(a^2 + ab + b^2)</expression>
+    </formula>
+    <formula>
+        <title id="cube-of-a-sum">
+            <lang code="es">cubo de una suma</lang>
+            <lang code="en">cube of a sum</lang>
+        </title>
+        <expression>(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3</expression>
+    </formula>
+    <formula>
+        <title id="cube-of-a-difference">
+            <lang code="es">cubo de una diferencia</lang>
+            <lang code="en">cube of a difference</lang>
+        </title>
+        <expression>(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3</expression>
+    </formula>
+    <section id="laws-of-exponents">
+        <lang code="es">leyes de los exponentes</lang>
+        <lang code="en">laws of exponents</lang>
+    </section>
+    <formula>
+        <title id="product-of-powers">
+            <lang code="es">producto de potencias</lang>
+            <lang code="en">product of powers</lang>
+        </title>
+        <expression>a^m \cdot a^n = a^{m+n}</expression>
+    </formula>
+    <formula>
+        <title id="quotient-of-powers">
+            <lang code="es">cociente de potencias</lang>
+            <lang code="en">quotient of powers</lang>
+        </title>
+        <expression>\frac{a^m}{a^n} = a^{m-n}</expression>
+    </formula>
+    <formula>
+        <title id="power-of-a-power">
+            <lang code="es">potencia de una potencia</lang>
+            <lang code="en">power of a power</lang>
+        </title>
+        <expression>(a^m)^n = a^{mn}</expression>
+    </formula>
+    <formula>
+        <title id="power-of-a-product">
+            <lang code="es">potencia de un producto</lang>
+            <lang code="en">power of a product</lang>
+        </title>
+        <expression>(ab)^n = a^n b^n</expression>
+    </formula>
+    <formula>
+        <title id="power-of-a-quotient">
+            <lang code="es">potencia de un cociente</lang>
+            <lang code="en">power of a quotient</lang>
+        </title>
+        <expression>\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}</expression>
+    </formula>
+    <formula>
+        <title id="zero-exponent">
+            <lang code="es">exponente cero</lang>
+            <lang code="en">zero exponent</lang>
+        </title>
+        <expression>a^0 = 1</expression>
+    </formula>
+    <formula>
+        <title id="negative-exponent">
+            <lang code="es">exponente negativo</lang>
+            <lang code="en">negative exponent</lang>
+        </title>
+        <expression>a^{-n} = \frac{1}{a^n}</expression>
+    </formula>    
+</formulas>

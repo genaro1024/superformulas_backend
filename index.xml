@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+    <category path="algebra.xml"> 
+        <title id="algebra">
+            <lang code="es">álgebra</lang>
+            <lang code="en">algebra</lang>
+        </title>
+    </category>
+    <category path="arithmetic.xml"> 
+        <title id="arithmetic">
+            <lang code="es">aritmética</lang>
+            <lang code="en">arithmetic</lang>
+        </title>
+    </category> 
+    <category path="calculus.xml"> 
+        <title id="calculus">
+            <lang code="es">cálculo</lang>
+            <lang code="en">calculus</lang>
+        </title>
+    </category>
+    <category path="trigonometry.xml"> 
+        <title id="trigonometry">
+            <lang code="es">trigonometría</lang>
+            <lang code="en">trigonometry</lang>
+        </title>
+    </category>             
+</categories>
