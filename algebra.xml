@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <formulas>
+    <!--SPECIAL PRODUCTS-->
     <section id="special-products">
         <lang code="es">productos notables</lang>
         <lang code="en">special products</lang>
@@ -53,6 +54,7 @@
         </title>
         <expression>(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3</expression>
     </formula>
+    <!--LAWS OF EXPONENTS-->
     <section id="laws-of-exponents">
         <lang code="es">leyes de los exponentes</lang>
         <lang code="en">laws of exponents</lang>
@@ -105,5 +107,85 @@
             <lang code="en">negative exponent</lang>
         </title>
         <expression>a^{-n} = \frac{1}{a^n}</expression>
+    </formula>
+    <!--POLYNOMIAL EQUATIONS--> 
+    <section id="polynomial-equations">
+        <lang code="es">ecuaciones polinomiales</lang>
+        <lang code="en">polynomial equations</lang>
+    </section>
+    <formula>
+        <title id="quadratic-equation">
+            <lang code="es">ecuación cuadrática</lang>
+            <lang code="en">quadratic equation</lang>
+        </title>
+        <expression>ax^2 + bx + c = 0</expression>
+    </formula>
+    <formula>
+        <title id="quadratic-formula">
+            <lang code="es">fórmula cuadrática</lang>
+            <lang code="en">quadratic formula</lang>
+        </title>
+        <expression>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</expression>
     </formula>    
+    <formula>
+        <title id="cubic-equation">
+            <lang code="es">ecuación cúbica</lang>
+            <lang code="en">cubic equation</lang>
+        </title>
+        <expression>ax^3 + bx^2 + cx + d = 0</expression>
+    </formula>
+    <formula>
+        <title id="quartic-equation">
+            <lang code="es">ecuación bicuadrada</lang>
+            <lang code="en">quartic equation</lang>
+        </title>
+        <expression>ax^4 + bx^2 + c = 0</expression>
+    </formula>
+    <!--LOGARITHMS AND EXPONENTIALS-->
+    <section id="logarithms-and-exponentials">
+        <lang code="es">logaritmos y exponenciales</lang>
+        <lang code="en">logarithms and exponentials</lang>
+    </section>
+    <formula>
+        <title id="logarithm-product-rule">
+            <lang code="es">regla del producto de logaritmos</lang>
+            <lang code="en">logarithm product rule</lang>
+        </title>
+        <expression>\log_b(xy) = \log_b(x) + \log_b(y)</expression>
+    </formula>
+    <formula>
+        <title id="logarithm-quotient-rule">
+            <lang code="es">regla del cociente de logaritmos</lang>
+            <lang code="en">logarithm quotient rule</lang>
+        </title>
+        <expression>\log_b\left(\frac{x}{y}\right) = \log_b(x) - \log_b(y)</expression>
+    </formula>
+    <formula>
+        <title id="logarithm-power-rule">
+            <lang code="es">regla de la potencia de logaritmos</lang>
+            <lang code="en">logarithm power rule</lang>
+        </title>
+        <expression>\log_b(x^k) = k \log_b(x)</expression>
+    </formula>
+    <formula>
+        <title id="change-of-base">
+            <lang code="es">cambio de base</lang>
+            <lang code="en">change of base</lang>
+        </title>
+        <expression>\log_b(x) = \frac{\log_k(x)}{\log_k(b)}</expression>
+    </formula>
+    <formula>
+        <title id="exponential-function">
+            <lang code="es">función exponencial</lang>
+            <lang code="en">exponential function</lang>
+        </title>
+        <expression>e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}</expression>
+    </formula>
+    <formula>
+        <title id="natural-logarithm">
+            <lang code="es">logaritmo natural</lang>
+            <lang code="en">natural logarithm</lang>
+        </title>
+        <expression>\ln(x) = \int_1^x \frac{1}{t} \, dt</expression>
+    </formula>   
 </formulas>
